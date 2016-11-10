@@ -1,0 +1,16 @@
+<h2>HOMEPAGE :)</h2>
+<p><%= link_to 'Create link :)', new_link_path %></p>
+
+<%= simple_form_for Link.new do |f| %>
+    <%= f.input :url %>
+    <%= f.input :title %>
+    <%= f.button :submit %>
+<% end %>
+
+<ul>
+<% @links.each do |link| %>
+    <li><%= link_to "#{link.title}", "#{link.url}" %></li>
+    <li><%= link_to 'Show more info :)', link_path(link) %></li>
+    </br>
+<% end %>
+</ul>
