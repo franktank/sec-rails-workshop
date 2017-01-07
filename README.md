@@ -9,3 +9,8 @@ The following functionality is complete:
 - [x] User can register, sign in, and sign out.
 - [x] User is able to post links.
 - [x] User sees a list of posted links on the home page.
+
+# Link
+Video tutorial from this workshop
+
+https://www.youtube.com/watch?v=oQj1QGDDDaM
