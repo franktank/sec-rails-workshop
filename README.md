@@ -1,4 +1,4 @@
-# Reddit Clone
+# Reddit Clone using Ruby on Rails
 
 This was built for UF SEC Workshop for Ruby on Rails
 
@@ -14,3 +14,5 @@ The following functionality is complete:
 Video tutorial from this workshop
 
 https://www.youtube.com/watch?v=oQj1QGDDDaM
+
+Follow along to understand development process with Rails!
